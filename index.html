@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <main>
+    <div class="titulo">
+      <h1>Simple, traffic-based pricing</h1>
+      <div class="titulo-parrafo">
+        <p>Sign-up for our 30-day trial.</p>
+        <p>No credit card required.</p>
+      </div>
+    </div>
+    <div class="cuadro">
+      <div class="cuadro-slide">
+        <h2>$<span id="vistas"> 100k</span> Pageviews</h2>
+        <input type="range" min="0" max="4" value="2" class="slider-range" id="myRange">
+        <h1><span class="precio">$<span id="precio">16</span></span> /month</h1>
+        <div class="cuadro-slide_swich">
+          <p>Monthly Billing</p>
+          <label class="switch">
+          <input type="checkbox" id="discount">
+          <span class="slider round"></span>
+        </label>
+          <p>Yearly Billing <span class="discount">25%</span></p>
+        </div>
+     </div>
+     <hr>
+     <div class="cuadro-boton">
+      <ul>
+        <li><img src="/assets/images/icon-check.svg" alt=""> Unlimited websites</li>
+        <li><img src="/assets/images/icon-check.svg" alt=""> 100% data ownership</li>
+        <li><img src="/assets/images/icon-check.svg" alt=""> Email reports</li>
+      </ul>
+      <button class="boton">Start my trial</button>
+     </div>
+    </div>
+  </main>
+
+ 
+
+ 
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Luis Valladares</a>.
+  </div>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
